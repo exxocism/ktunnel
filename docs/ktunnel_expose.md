@@ -50,6 +50,7 @@ ktunnel expose redis 6379
       --server-memory-limit int          Server container CPU Limit in mega-bytes (default 1000)
       --server-memory-request int        Server container CPU Request in mega-bytes (default 100)
       --service-type string              exposed service type (ClusterIP, NodePort, LoadBalancer or ExternalName) (default "ClusterIP")
+  -a, --service-account string           service account
 ```
 
 ### Options inherited from parent commands
